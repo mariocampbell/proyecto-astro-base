@@ -1,0 +1,23 @@
+/*<!-- ------------------------------------------ -->*/
+/*<!-- LOGOTIPO -->*/
+/*<!-- ------------------------------------------ -->*/
+.c-logotipo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  &__iso {
+    max-width: 60px;
+  }
+
+  &__logo {
+    font-family: $font-logotipo;
+    font-weight: 600;
+    font-size: 1.85rem;
+    text-transform: uppercase;
+  }
+}
+/*<!-- --------------- END LOGOTIPO ---------------- -->*/
+/*<!-- ------------------------------------------ -->*/

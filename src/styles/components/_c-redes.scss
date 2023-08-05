@@ -1,0 +1,16 @@
+.c-redes {
+  display: flex;
+  align-items: center;
+  margin-top: 0.65rem;
+  margin-bottom: 0.8rem;
+  color: $color-gray-500;
+
+  &__item {
+    margin: 0 0.5rem;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+      color: $color-primary-400;
+    }
+  }
+}

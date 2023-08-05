@@ -1,5 +1,5 @@
 {
-  "name": "mcmpbll-portfolio-2024",
+  "name": "astro-base",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,6 +10,17 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.10.1"
+    "astro": "^2.10.1",
+    "gsap": "^3.12.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "eslint": "^8.46.0",
+    "eslint-config-standard-with-typescript": "^37.0.0",
+    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "sass": "^1.64.2",
+    "typescript": "^5.1.6"
   }
 }
